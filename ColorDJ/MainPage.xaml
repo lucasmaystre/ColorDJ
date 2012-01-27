@@ -15,9 +15,8 @@
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
-        <Rectangle Name="rect" MouseMove="rect_MouseMove" Fill="#FF95E4C4" />
-        <TextBlock Height="30" HorizontalAlignment="Left" Margin="195,497,0,0" Name="text" Text="TextBlock" VerticalAlignment="Top" Foreground="Black" />
-        <TextBlock Height="30" HorizontalAlignment="Left" Margin="195,533,0,0" Name="text2" Text="TextBlock" VerticalAlignment="Top" Foreground="Black" />
+        <Rectangle Name="rect" MouseMove="rect_MouseMove" Fill="#FFFFFFFF" />
+        <TextBlock Height="30" HorizontalAlignment="Center" Name="instructions" Text="Start swiping your finger..." VerticalAlignment="Center" Foreground="Black" />
     </Grid>
  
     <!--Sample code showing usage of ApplicationBar-->
